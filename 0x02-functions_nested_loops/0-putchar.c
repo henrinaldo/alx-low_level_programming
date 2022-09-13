@@ -3,9 +3,7 @@
 #include "main.h"
 
 /**
- * main: _putchar
- * Descripion: This program prints _putchar,
- * followed by a new line.
+ * main - Prints 0-putchar.c
  * Return: Always 0 (ssuccess)
  */
 
