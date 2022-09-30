@@ -11,9 +11,9 @@ void _puts_recursion(char *s)
 {
 	if (!*s) /* if s points to null char */
 	{
-		_putchar('\n');
+		putchar('\n');
 		return;
 	}
-	_putchar(*s);
+	putchar(*s);
 	_puts_recursion(s + 1);
 }
